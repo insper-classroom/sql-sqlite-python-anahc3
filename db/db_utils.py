@@ -37,7 +37,7 @@ def consult(caminho_db, nome_tabela):
     conn.commit()
 
     print(cursor.fetchall())
-
+    
     conn.close()
 
 def delete(caminho_db, nome_tabela, condicao, elemento):
